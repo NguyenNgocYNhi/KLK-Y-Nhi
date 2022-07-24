@@ -1,0 +1,223 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body #optionBar {
+  width: 100%;
+  height: 8vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #optionBar a {
+  background-color: black;
+  height: 100%;
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3vh;
+  color: white;
+  padding: 20px 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+body #optionBar a:hover {
+  background-color: #2d2d2d;
+}
+
+body #carousel img {
+  width: 100%;
+}
+
+body .content {
+  padding: 20px 10px;
+  text-align: justify;
+}
+
+body .content span {
+  margin: auto;
+}
+
+body .content #name {
+  color: red;
+  font-weight: bold;
+}
+
+body .sample {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .sample .left {
+  padding: 0 10px;
+}
+
+body .sample .left .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+body .sample .right {
+  padding: 0 10px;
+}
+
+body .sample .right .top {
+  padding-bottom: 10px;
+}
+
+body .detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .detail h1 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 0;
+}
+
+body .detail__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .detail__bottom img {
+  width: 100%;
+}
+
+body .detail__bottom button {
+  color: white;
+  font-weight: bold;
+  padding: 5px 12px;
+  margin: 5px 0;
+  border: 2px solid #ba2929;
+  background-color: #f35858;
+  border-radius: 3px;
+}
+
+body .detail__bottom button:hover {
+  background-color: #f87c7c;
+}
+
+body .detail__bottom__product1 {
+  width: 24%;
+}
+
+body .detail__bottom__product2 {
+  width: 24%;
+}
+
+body .detail__bottom__product3 {
+  width: 24%;
+}
+
+body .detail__bottom__product4 {
+  width: 24%;
+}
+
+body .backdrop img {
+  width: 100%;
+}
+
+body .backdrop .circle {
+  background-color: rgba(209, 48, 48, 0.486);
+  border-radius: 200px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  -webkit-transform: translateY(-350px) translateX(100px);
+          transform: translateY(-350px) translateX(100px);
+  text-align: center;
+}
+
+body .service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+body .service__insurance {
+  padding: 0 10px;
+}
+
+body .service__human {
+  padding: 0 10px;
+}
+
+body .service__design {
+  padding: 0 10px;
+}
+
+body .endInfo {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 20px 0;
+}
+/*# sourceMappingURL=style.css.map */
